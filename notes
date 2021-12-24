@@ -1,0 +1,18 @@
+- Algorithm HmacPBESHA256 not available
+    - use JDK16 for gradle
+    - project structure -> sdk location -> gradle settings
+- All UI items on top of another
+    - I still don't understand constraintlayout, use relativelayout instead
+- Run succeeds, but the emulator shows nothing
+    - the app may be failing on start
+- reference the UI from class
+    - 'kotlin-android-extensions' plugin
+        - ```javascript
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+```
+
+
